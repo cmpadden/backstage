@@ -1,5 +1,13 @@
 # @backstage/codemods
 
+## 0.1.17
+
+### Patch Changes
+
+- 7dee4db0b0: build(deps): bump `jscodeshift` from 0.12.0 to 0.13.0
+- Updated dependencies
+  - @backstage/core-app-api@0.1.16
+
 ## 0.1.16
 
 ### Patch Changes

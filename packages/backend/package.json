@@ -1,6 +1,6 @@
 {
   "name": "example-backend",
-  "version": "0.2.48",
+  "version": "0.2.49",
   "main": "dist/index.cjs.js",
   "types": "src/index.ts",
   "license": "Apache-2.0",
@@ -33,7 +33,7 @@
     "@backstage/plugin-auth-backend": "^0.4.2",
     "@backstage/plugin-azure-devops-backend": "^0.1.1",
     "@backstage/plugin-badges-backend": "^0.1.10",
-    "@backstage/plugin-catalog-backend": "^0.15.0",
+    "@backstage/plugin-catalog-backend": "^0.16.0",
     "@backstage/plugin-code-coverage-backend": "^0.1.11",
     "@backstage/plugin-graphql-backend": "^0.1.9",
     "@backstage/plugin-jenkins-backend": "^0.1.5",
