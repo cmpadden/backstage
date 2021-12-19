@@ -9,7 +9,12 @@ const simpleComponent = (Component, baseClassName = '', mods = []) => {
       if (mods.indexOf(prop) !== -1) {
         modClasses.push(`${baseClassName}--${prop}`);
       } else {
-        otherProps[prop] = props[prop];
+        // cast boolean to string to suppress "Received `true` for a non-boolean attribute `small`"
+        if (typeof props[prop] == 'boolean') {
+          otherProps[prop] = props[prop].toString();
+        } else {
+          otherProps[prop] = props[prop];
+        }
       }
     }
 
